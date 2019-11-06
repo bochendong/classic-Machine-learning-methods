@@ -12,7 +12,7 @@ def loss_cal (x, y, weight, bias):
         loss_sum += abs(y[i] - y_temp)
     return loss_sum
 
-def logic_regression (x_data, y_data, learning_rate, iteration):
+def linear_regression (x_data, y_data, learning_rate, iteration):
     b = -120
     w = -4
     loss = []
@@ -60,4 +60,4 @@ def logic_regression (x_data, y_data, learning_rate, iteration):
     plt.plot(loss_x, loss,'o')
     plt.show()
 
-logic_regression (x_data, y_data, 0.000001, 100000)
+linear_regression (x_data, y_data, 0.000001, 100000)
