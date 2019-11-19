@@ -8,7 +8,6 @@ import time
 
 # generate data
 x = np.random.rand(2, 100)
-
 y = []
 i = 0
 
@@ -22,7 +21,6 @@ for x_axis in x[0]:
 y = np.array(y).reshape(100,1)
 
 
-
 # do prediction
 def prediction(w, x, y, n):
 	correct = 0.0
@@ -32,7 +30,7 @@ def prediction(w, x, y, n):
 			correct += 1.0
 		elif (np.dot(w.T, x[:,i]) <= 0 and y[i] < 0):
 			correct += 1.0
-
+			
 	return correct / n
 
 loss_history = []
@@ -43,13 +41,10 @@ loss_history = []
 def sigmoid(w, x_i):
     return 1.0 / (1.0 + np.exp(- np.dot(w.T, x_i)))
 
-
 def logistic_regression(x , y):
 	n = len(y)
 	d = len(x)
-
 	w = np.zeros(d)
-
 	eta = 0.001
 
 	for k in range (0, 10000):
@@ -59,19 +54,16 @@ def logistic_regression(x , y):
 			p_i = sigmoid(w, x[:,i])
 			g += ((p_i - ((1.0 + y[i]) / 2.0)) * x[:,i]).reshape(d, 1)
 
-
 		w = (w - (eta * g).T)[0]
 		this_round_loss = prediction(w, x, y, n)
 		loss_history.append(this_round_loss)
-		print (w)
+		
 		if (np.linalg.norm(eta * g, 1) <= 0.001):
 			break;
 	return w
 
 w = logistic_regression (x, y)
 print (w)
-
-
 
 # plot data 
 x_l = range(0,len(y))
