@@ -6,7 +6,7 @@ General method of machine learing
     * [Lasso](https://github.com/bochendong/Machine-learning/edit/master/Linear_regression/Lasso)
 * [Logistic Regression](https://github.com/bochendong/Machine-learning/tree/master/logistic_regression)
 * [SVM]
-   * [Hard margin]
-   * [Soft margin]
+   * [Hard margin SVM]
+   * [Soft margin SVM]
 * [Kernel Logistic Regression](https://github.com/bochendong/Machine-learning/tree/master/Kernel_Logistic_reg)
 * [VGG11 on MNIST](https://github.com/bochendong/VGG11-on-MNIST-dataset)
