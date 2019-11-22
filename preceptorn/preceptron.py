@@ -37,7 +37,7 @@ def preception (x, y):
                 mistake[t] = mistake[t] + 1
                 
     x_axis = []
-    for i in range(1,501):
+    for i in range(0,500):
         x_axis.append(i)
         
     plt.scatter(x_axis,mistake)
