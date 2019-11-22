@@ -10,3 +10,4 @@ General method of machine learing
    * [Soft margin SVM]
 * [Kernel Logistic Regression](https://github.com/bochendong/Machine-learning/tree/master/Kernel_Logistic_reg)
 * [VGG11 on MNIST](https://github.com/bochendong/VGG11-on-MNIST-dataset)
+* [Gaussian Mixture Model]
