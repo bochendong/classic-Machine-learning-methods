@@ -2,4 +2,4 @@
 
 Algorithm code:
 
-[![](/image/PA.png "Algorithm for Preceptorn")][PA]
+[![](https://github.com/bochendong/Machine-learning/tree/master/preceptorn/image/PA.png)][PA]
