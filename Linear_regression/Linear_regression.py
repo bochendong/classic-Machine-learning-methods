@@ -53,10 +53,16 @@ def linear_regression (x_data, y_data, learning_rate, iteration):
     plt.xlim(0, 700)
     plt.ylim(0, 1700)
     plt.plot(x_data,y_pred)
+    plt.xlabel('X')
+    plt.ylabel('Y')
+    plt.title('linear_regression')
     plt.show()
 
     # plot the chage of loss function
     loss_x = range (0,100000)
+    plt.title('LOSS')
+    plt.xlabel('Round')
+    plt.ylabel('Loss')
     plt.plot(loss_x, loss,'o')
     plt.show()
 
