@@ -1,2 +1,4 @@
-# Machine-learning
-general method of machine learing
+# Preceptorn
+
+Algorithm code:
+[![](/image/PA.png "Algorithm for Preceptorn")][PA]
