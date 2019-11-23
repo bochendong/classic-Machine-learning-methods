@@ -1,6 +1,8 @@
 # Linear_regression
+
 The lost function of linear regression is:
 ![LR1](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/cll.png)
+
 Take the derviate with respect to w and b we get:
 ![LR1](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/cld.png)
 Output image:
