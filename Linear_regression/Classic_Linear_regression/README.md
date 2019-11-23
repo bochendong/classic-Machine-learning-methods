@@ -8,7 +8,7 @@ Take the derviate with respect to w and b we get:
 
 ![LR1](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/cld.png)
 
-Output image:
+Then we use the gradiant desecent to find the minimum lost function and we get the output:
 
 ![LR1](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/LR1.png)
 
