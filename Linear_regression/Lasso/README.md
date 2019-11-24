@@ -1,6 +1,6 @@
 # Lasso
 
-We can use two way to find an optimal, one is gradient descent (as algorithm 2) and another is Algorithm 1
+We can use two way to find an optimal, one is gradient descent (as [Alogorithm 2]) and another is [Alogorithm 1](https://github.com/bochendong/Machine-learning/tree/master/preceptorn)
 ### The Loss function of Lasso is:
 
 ![Lasso1](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Lasso1.png)
