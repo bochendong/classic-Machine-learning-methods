@@ -3,7 +3,7 @@
 The lost function of linear regression is:
 
 <div align=center>
-![LR1](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/cll.png)
+<![LR1](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/cll.png)>
 </div>
 
 Take the derviate with respect to w and b we get:
