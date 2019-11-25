@@ -19,3 +19,5 @@ We can use two way to find an optimal, one is gradient descent (as [Alogorithm 2
 ![Lasso4](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Lasso4.png)
 
 ## Algorithm 2:
+
+Using Gradient desencent, take the derivative of the loss function w.r.t w and b, set max round be and learning rate = 
