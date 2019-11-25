@@ -20,4 +20,4 @@ We can use two way to find an optimal, one is gradient descent (as [Alogorithm 2
 
 ## Algorithm 2:
 
-Using Gradient desencent, take the derivative of the loss function w.r.t w and b, set max round be 100,000 lambda = 10 and learning rate = 0.000001
+Using Gradient desencent, take the derivative of the loss function w.r.t w and b, set max round be 100,000, lambda = 10 and learning rate = 0.000001
