@@ -14,7 +14,7 @@ We can use two way to find an optimal, one is gradient descent (as [Alogorithm 2
 
 ![Lasso3](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Lasso3.png)
 
-### We can perform step 3 in above algorithm to O(n) time and space using equation(6) in following ways:
+### We can perform line 3 in above algorithm to O(n) time and space using equation(6) in following ways:
 
 ![Lasso4](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Lasso4.png)
 
