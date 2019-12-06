@@ -19,12 +19,12 @@ We can use two way to find an optimal, one is gradient descent (as [Alogorithm 2
 ![Lasso4](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Lasso4.png)
 
 ### Then the output of this algorithm is:
-
-![Lasso4](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Figure_1.png)
+Note that we did not use gradient desencent, so the loss function is not monotonically decreasing
+![Lasso4](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/figure_1.png)
 
 ## Algorithm 2:
 
 Using Gradient desencent, take the derivative of the loss function w.r.t w and b, set max round be 100,000, lambda = 10 and learning rate = 0.000001
 ### Then the output of this algorithm is:
 
-![Lasso4](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Figure_2.png)
+![Lasso4](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/figure_2.png)
