@@ -5,6 +5,7 @@ General method of machine learing
     * [Classic Linear Regression](https://github.com/bochendong/Machine-learning/edit/master/Linear_regression/Classic_Linear_regression)
     * [Lasso](https://github.com/bochendong/Machine-learning/edit/master/Linear_regression/Lasso)
 * [Logistic Regression](https://github.com/bochendong/Machine-learning/tree/master/logistic_regression)
+* [Adaboost]
 * [SVM]
    * [Hard margin SVM]
    * [Soft margin SVM]
