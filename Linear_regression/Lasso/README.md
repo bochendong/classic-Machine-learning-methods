@@ -25,7 +25,8 @@ Note that we did not use gradient desencent, so the loss function is not monoton
 ## Algorithm 2:
 ### The Loss function of Lasso with L2 Regularization is:
 ![Lasso5](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Lasso5.png)
-Using Gradient desencent, take the derivative of the loss function w.r.t w and b, set max round be 100,000, lambda = 10 and learning rate = 0.000001
-### Then the output of this algorithm is:
 
+Using Gradient desencent, take the derivative of the loss function w.r.t w and b, set max round be 100,000, lambda = 10 and learning rate = 0.000001
+
+### Then the output of this algorithm is:
 ![Lasso4](https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/figure_2.png)
