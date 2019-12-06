@@ -12,7 +12,7 @@ y = np.random.random((n,1))
 w = np.zeros((d,1))
 
 
-
+'''
 # The lost function for lasso is 1 / 2 || X ^ T w - y ||^2_2 + \lambda ||w||_1, ( where ||w||_1 = \sum _j |w_j| )
 def loss (x, y, w, lam):
     total_loss = np.linalg.norm(np.dot (x.T, w) - y)**2 + lam * np.linalg.norm(w)**2
@@ -73,25 +73,36 @@ loss_x = range (0,round_cal)
 plt.plot(loss_x, loss_history,'o')
 plt.show()
 
-
+'''
 loss_history_2 = []
 def loss_2 (x, y, w, lam):
-    total_loss = np.linalg.norm(np.dot (x.T, w) - y)**2 + lam * np.linalg.norm(w)**2
+    total_loss = (1 / 2) * np.linalg.norm(np.dot (x.T, w) - y)**2 + lam * np.linalg.norm(w, ord = 1)
     return total_loss
+
+def sign_w_lam(lam, w):
+    r = 0
+    for i in range (0 , len(w)):
+        if (w[i] < 0):
+            r = r - lam
+        elif (w[i] > 0):
+            r = r + lam
+
+    return  r
 
 def Lasso_2 (x, y, w, lam, eta):
     d = x.shape[0]
     n = x.shape[1]
 
-    for i in range (0, 100000):
-         w_grad = 2 * np.dot(x, (np.dot(x.T, w) - y)) + lam * w
+    for i in range (0, 100):
+         w_grad = np.dot(x, (np.dot(x.T, w) - y)) + sign_w_lam(lam, w)
 
          w = w - eta * w_grad
 
          loss_this_round = loss_2 (x, y, w, lam)
          loss_history_2.append(loss_this_round)
 
-Lasso_2 (x, y, w, 10, 0.000001)
-loss_x = range (0,100000)
+Lasso_2 (x, y, w, 0, 0.1)
+loss_x = range (0,100)
+print (loss_history_2)
 plt.plot(loss_x, loss_history_2,'o')
 plt.show()
