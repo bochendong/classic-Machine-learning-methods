@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 from numpy import *
 import numpy as np
 import csv
@@ -45,13 +44,13 @@ def Lasso (x, y, w, lam):
             for j in range(0, d):
                 a +=  x[j][i] * x[j][i]
                 if (j != i):
-                    s = x[j].reshape(n,1) * w[j]        
+                    s = x[j].reshape(n,1) * w[j]
                     q = y - s
                     M += q
 
             # b = sum_{i = 1}^d M_i * X_ji
             for j in range(0,d):
-                b += M[j] * x[j][i]  
+                b += M[j] * x[j][i]
 
             if (b / a < 0):
                 w[i] = -1 * max(0,(((-1) * b / a)  - lam / a))
@@ -72,7 +71,7 @@ def Lasso (x, y, w, lam):
 round_cal = Lasso (x, y, w, 10)
 loss_x = range (0,round_cal)
 plt.plot(loss_x, loss_history,'o')
-plt.show()        
+plt.show()
 
 
 loss_history_2 = []
