@@ -1,5 +1,6 @@
 ## AdaBoost
 
-## Step1: train a weak classifier
 
-Input: sequence of N labeled example: <(x_1,y_1), ..., (x_N,y_N)>, initialize the weight vector w_i^1
+![ada1](https://github.com/bochendong/Machine-learning/raw/master/image/ada1.png)
+
+![ada2](https://github.com/bochendong/Machine-learning/raw/master/image/ada2.png)
