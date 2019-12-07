@@ -1,4 +1,4 @@
-# Linear_regression
+## Linear_regression
 
 ### The lost function of linear regression is:
 
