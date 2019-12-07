@@ -6,9 +6,9 @@ General method of machine learing
     * [Lasso](https://github.com/bochendong/Machine-learning/edit/master/Linear_regression/Lasso)
 * [Logistic Regression](https://github.com/bochendong/Machine-learning/tree/master/logistic_regression)
 * [Adaboost](https://github.com/bochendong/Machine-learning/tree/master/adaboost)
-* [SVM]
-   * [Hard margin SVM]
-   * [Soft margin SVM]
+* [SVM](https://github.com/bochendong/Machine-learning/tree/master/SVM)
+   * [Hard margin SVM](https://github.com/bochendong/Machine-learning/tree/master/SVM/Hard%20margin%20SVM)
+   * [Soft margin SVM](https://github.com/bochendong/Machine-learning/tree/master/SVM/Soft%20margin%20SVM)
 * [Kernel Logistic Regression](https://github.com/bochendong/Machine-learning/tree/master/Kernel_Logistic_reg)
 * [VGG11 on MNIST](https://github.com/bochendong/VGG11-on-MNIST-dataset)
 * [Gaussian Mixture Model]
