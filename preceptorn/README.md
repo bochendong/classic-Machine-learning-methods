@@ -3,7 +3,7 @@
 ## Algorithm presocode
 <p align="center">
 	<img src="https://github.com/bochendong/Machine-learning/raw/master/preceptorn/image/PA.png"
-        width="300" height="140">
+        width="600" height="140">
 	<p align="center">
 </p>
 
@@ -11,7 +11,7 @@
 
 <p align="center">
 	<img src="https://github.com/bochendong/Machine-learning/raw/master/preceptorn/image/PO.png"
-        width="300" height="200">
+        width="300" height="250">
 	<p align="center">
 	</p>
 </p>
