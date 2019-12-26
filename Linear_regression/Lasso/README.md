@@ -5,7 +5,7 @@ We can use two way to find an optimal, one is gradient descent (as [Alogorithm 2
 
 <p align="center">
 	<img src="https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Lasso1.png"
-        width="600" height="50">
+        width="300" height="50">
 	<p align="center">
 </p>
 
@@ -26,7 +26,7 @@ We can use two way to find an optimal, one is gradient descent (as [Alogorithm 2
 Note that we did not use gradient desencent, so the loss function is not monotonically decreasing
 <p align="center">
 	<img src="https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/figure_1.png"
-        width="300" height="200">
+        width="400" height="300">
 	<p align="center">
 </p>
 
@@ -34,7 +34,7 @@ Note that we did not use gradient desencent, so the loss function is not monoton
 ### The Loss function of Lasso with L2 Regularization is:
 <p align="center">
 	<img src="https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/Lasso5.png"
-        width="600" height="50">
+        width="300" height="50">
 	<p align="center">
 </p>
 
@@ -43,6 +43,6 @@ Using Gradient desencent, take the derivative of the loss function w.r.t w and b
 ### Then the output of this algorithm is:
 <p align="center">
 	<img src="https://github.com/bochendong/Machine-learning/raw/master/Linear_regression/image/figure_2.png"
-        width="300" height="200">
+        width="400" height="300">
 	<p align="center">
 </p>
