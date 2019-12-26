@@ -1,13 +1,13 @@
 # Preceptorn
 
-## Algorithm presocode
+### Algorithm presocode
 <p align="center">
 	<img src="https://github.com/bochendong/Machine-learning/raw/master/preceptorn/image/PA.png"
         width="600" height="140">
 	<p align="center">
 </p>
 
-## Output
+### Output
 
 <p align="center">
 	<img src="https://github.com/bochendong/Machine-learning/raw/master/preceptorn/image/PO.png"
