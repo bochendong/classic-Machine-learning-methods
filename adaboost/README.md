@@ -7,7 +7,7 @@
 ### Weak classifier to Strong classifier
 
 <p align="center">
-	<img src="https://github.com/bochendong/Machine-learning/raw/master/image/ada3.png"  width="400" height="300">
+	<img src="https://github.com/bochendong/Machine-learning/raw/master/image/ada3.png"  width="600" height="300">
 	<p align="center">
 	</p>
 </p>
